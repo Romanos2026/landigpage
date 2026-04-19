@@ -764,4 +764,19 @@ h2::after {
     .quote-wrapper {
         grid-template-columns: 1fr;
     }
+   .btn-portafolio {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #b08d44; /* El color dorado que usas en Cotizar */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-portafolio:hover {
+    background-color: #8e6f33; /* Un tono más oscuro al pasar el mouse */
+}
 }
